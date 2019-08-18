@@ -32,11 +32,11 @@ public enum UICollectionViewAction {
 
 public struct CollectionViewSectionIndexPathModel<Section: SectionModelType> {
 
-  let sections: [Section]
+  public let sections: [Section]
 
-  let action: UICollectionViewAction
+  public let action: UICollectionViewAction
 
-  init(sections: [Section], action: UICollectionViewAction) {
+  public init(sections: [Section], action: UICollectionViewAction) {
     self.sections = sections
     self.action = action
   }

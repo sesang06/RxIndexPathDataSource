@@ -34,11 +34,11 @@ public enum UITableViewAction {
 
 public struct TableViewSectionIndexPathModel<Section: SectionModelType> {
 
-  let sections: [Section]
+  public let sections: [Section]
 
-  let action: UITableViewAction
+  public let action: UITableViewAction
 
-  init(sections: [Section], action: UITableViewAction) {
+  public init(sections: [Section], action: UITableViewAction) {
     self.sections = sections
     self.action = action
   }
