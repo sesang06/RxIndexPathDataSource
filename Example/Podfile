@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RxIndexPathDataSource_Example' do
+  pod 'RxIndexPathDataSource', :path => '../'
+
+  target 'RxIndexPathDataSource_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
