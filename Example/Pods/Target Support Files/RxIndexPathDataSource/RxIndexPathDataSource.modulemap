@@ -1,0 +1,6 @@
+framework module RxIndexPathDataSource {
+  umbrella header "RxIndexPathDataSource-umbrella.h"
+
+  export *
+  module * { export * }
+}
