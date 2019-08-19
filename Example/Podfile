@@ -2,7 +2,10 @@ use_frameworks!
 
 target 'RxIndexPathDataSource_Example' do
   pod 'RxIndexPathDataSource', :path => '../'
-
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'RxDataSources', '~> 4.0'
+  
   target 'RxIndexPathDataSource_Tests' do
     inherit! :search_paths
 

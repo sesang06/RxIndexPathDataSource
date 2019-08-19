@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06104FC0230AF1020017C0DA /* CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06104FBF230AF1020017C0DA /* CustomData.swift */; };
+		06104FC3230AF1150017C0DA /* ExampleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06104FC1230AF1150017C0DA /* ExampleCollectionViewController.swift */; };
+		06104FC4230AF1150017C0DA /* ExampleCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06104FC2230AF1150017C0DA /* ExampleCollectionViewModel.swift */; };
+		06104FC7230AF11C0017C0DA /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06104FC5230AF11C0017C0DA /* ExampleTableViewController.swift */; };
+		06104FC8230AF11C0017C0DA /* ExampleTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06104FC6230AF11C0017C0DA /* ExampleTableViewModel.swift */; };
+		06104FCA230AF66F0017C0DA /* TextLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06104FC9230AF66F0017C0DA /* TextLabelCell.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +34,12 @@
 
 /* Begin PBXFileReference section */
 		019736A547FEACD7EB79E05A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		06104FBF230AF1020017C0DA /* CustomData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomData.swift; sourceTree = "<group>"; };
+		06104FC1230AF1150017C0DA /* ExampleCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewController.swift; sourceTree = "<group>"; };
+		06104FC2230AF1150017C0DA /* ExampleCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewModel.swift; sourceTree = "<group>"; };
+		06104FC5230AF11C0017C0DA /* ExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
+		06104FC6230AF11C0017C0DA /* ExampleTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewModel.swift; sourceTree = "<group>"; };
+		06104FC9230AF66F0017C0DA /* TextLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabelCell.swift; sourceTree = "<group>"; };
 		0D92D9BB6BD04BF7B2EC62FC /* Pods-RxIndexPathDataSource_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxIndexPathDataSource_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RxIndexPathDataSource_Tests/Pods-RxIndexPathDataSource_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		57AE5CD430BFB1A7AC7480FA /* Pods-RxIndexPathDataSource_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxIndexPathDataSource_Tests.release.xcconfig"; path = "Target Support Files/Pods-RxIndexPathDataSource_Tests/Pods-RxIndexPathDataSource_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A32D3994FD3C5879E0C2C81 /* Pods_RxIndexPathDataSource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxIndexPathDataSource_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +78,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06104FBC230AF0C90017C0DA /* CollectionView Example */ = {
+			isa = PBXGroup;
+			children = (
+				06104FC1230AF1150017C0DA /* ExampleCollectionViewController.swift */,
+				06104FC9230AF66F0017C0DA /* TextLabelCell.swift */,
+				06104FC2230AF1150017C0DA /* ExampleCollectionViewModel.swift */,
+			);
+			name = "CollectionView Example";
+			sourceTree = "<group>";
+		};
+		06104FBD230AF0ED0017C0DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06104FBF230AF1020017C0DA /* CustomData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		06104FBE230AF0F20017C0DA /* TableView Example */ = {
+			isa = PBXGroup;
+			children = (
+				06104FC5230AF11C0017C0DA /* ExampleTableViewController.swift */,
+				06104FC6230AF11C0017C0DA /* ExampleTableViewModel.swift */,
+			);
+			name = "TableView Example";
+			sourceTree = "<group>";
+		};
 		3BE3F524A494EDEA80376912 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +137,9 @@
 		607FACD21AFB9204008FA782 /* Example for RxIndexPathDataSource */ = {
 			isa = PBXGroup;
 			children = (
+				06104FBE230AF0F20017C0DA /* TableView Example */,
+				06104FBD230AF0ED0017C0DA /* Model */,
+				06104FBC230AF0C90017C0DA /* CollectionView Example */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -248,11 +290,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RxIndexPathDataSource_Example/Pods-RxIndexPathDataSource_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxIndexPathDataSource/RxIndexPathDataSource.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxIndexPathDataSource.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -310,8 +362,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06104FC7230AF11C0017C0DA /* ExampleTableViewController.swift in Sources */,
+				06104FC4230AF1150017C0DA /* ExampleCollectionViewModel.swift in Sources */,
+				06104FC0230AF1020017C0DA /* CustomData.swift in Sources */,
+				06104FCA230AF66F0017C0DA /* TextLabelCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				06104FC8230AF11C0017C0DA /* ExampleTableViewModel.swift in Sources */,
+				06104FC3230AF1150017C0DA /* ExampleCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
