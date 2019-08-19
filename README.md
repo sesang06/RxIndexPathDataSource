@@ -6,12 +6,12 @@
 [![Platform](https://img.shields.io/cocoapods/p/RxIndexPathDataSource.svg?style=flat)](https://cocoapods.org/pods/RxIndexPathDataSource)
 
 
-## Rx Extesnions of simple Animated TableView and CollectionView DataSource, based by traditional IndexPath Style
+## Rx Extensions of simple Animated TableView and CollectionView DataSource, based by traditional IndexPath Style
 
 <img src="https://github.com/sesang06/RxIndexPathDataSource/blob/master/preview/preview.gif?raw=true" width="187" height="333"/>
 
 ### Explaination
-If you use RxDataSource and animate cell, Your data model should conform to IdentifiableType and Equatable.
+If you use RxDataSources and animate cell, Your data model should conform to IdentifiableType and Equatable.
 
 However, I just want to call below functions, to control animatation.
 
@@ -26,7 +26,7 @@ Deletes the rows specified by an array of index paths, with an option to animate
 So I made some code and example code, and copy from Some code from RxDataSource.
 
 ## Requirements
-you should install RxSwift, RxCocoa, RxDataSource.
+you should install RxSwift, RxCocoa, RxDataSources.
 
 ## Example
 
