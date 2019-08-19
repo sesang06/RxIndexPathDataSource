@@ -6,7 +6,6 @@
 //  Copyright © 2019 조세상. All rights reserved.
 //
 
-import Foundation
 import RxSwift
 import RxCocoa
 import RxIndexPathDataSource
