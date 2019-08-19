@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/RxIndexPathDataSource.svg?style=flat)](https://cocoapods.org/pods/RxIndexPathDataSource)
 
 
-## Rx Extesnions of simple Animated TableView CollectionView DataSource, based by traditional IndexPath Style
+## Rx Extesnions of simple Animated TableView and CollectionView DataSource, based by traditional IndexPath Style
 
 <img src="https://github.com/sesang06/RxIndexPathDataSource/blob/master/preview/preview.gif?raw=true" width="187" height="333"/>
 
